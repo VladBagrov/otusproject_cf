@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfebed55-598e-4192-8023-7850ae1f9ed6">
+  <producedTypes>
+    <managerType typeId="844dc5e4-d3b7-40d0-a5a1-90391f7079c0" valueTypeId="26815704-1e71-46af-9d79-1f02f0f7005a"/>
+    <valueManagerType typeId="5d490021-19d6-4233-910c-470bf1fb9aaa" valueTypeId="6aaecc1b-4be2-40f4-8794-e22ba135385e"/>
+    <valueKeyType typeId="247a95b6-fd04-4ffe-9aef-d695ada6a687" valueTypeId="89c2f58f-d1e0-4d6f-9518-a0620caaa024"/>
+  </producedTypes>
+  <name>отусКоличествоДнейЖизниБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус количество дней жизни бонусов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

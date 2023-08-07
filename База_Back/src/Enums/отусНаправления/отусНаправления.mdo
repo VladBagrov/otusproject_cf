@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e398fe9f-bac1-4e75-ae4a-025515b8c62c">
+  <producedTypes>
+    <refType typeId="7fe55b7f-27ad-4e13-b197-cbb93e26568e" valueTypeId="b184044e-738d-46b5-8b0d-316a53456fed"/>
+    <listType typeId="0ccb14dc-fea8-4002-91d4-1dc810bbf929" valueTypeId="1425905c-1421-4874-8f8f-d51b8aa76ff1"/>
+    <managerType typeId="7f33812e-b0f2-4076-bcf9-622fd3d42e16" valueTypeId="11e68150-c0b7-4921-9836-0b96be27dd72"/>
+  </producedTypes>
+  <name>отусНаправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус направления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4af53e9-ad06-4d44-842a-e0adee66c711">
+    <name>Отправление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1abbfad-b71e-4dce-8391-67c7de6a88bc">
+    <name>Получение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

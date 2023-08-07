@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10d3a0db-0ba2-4723-bfdd-0e577d54e932">
+  <name>отусФормаПроцентБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка процента бонусов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

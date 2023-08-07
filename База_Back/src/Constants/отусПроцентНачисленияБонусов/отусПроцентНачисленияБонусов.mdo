@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d98ee93-a1dc-43d1-ba7a-4b509de3dae8">
+  <producedTypes>
+    <managerType typeId="56a7a8a0-39c0-4d5c-940a-ddec7d8ba349" valueTypeId="177c5cef-459f-4935-a817-730e948660e6"/>
+    <valueManagerType typeId="885a7ba7-a122-4909-862f-b7d5d3ef985a" valueTypeId="2128b356-5fd6-4d71-b084-788a967dcd4a"/>
+    <valueKeyType typeId="30400484-3642-411d-a5f9-080b21764ece" valueTypeId="970a3e4a-24c9-4b11-905f-278853244282"/>
+  </producedTypes>
+  <name>отусПроцентНачисленияБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус процент начисления бонусов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

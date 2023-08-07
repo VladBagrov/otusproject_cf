@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f14b1979-6adc-4451-ac9c-7841f73fe15d">
+  <producedTypes>
+    <selectionType typeId="d85cd0eb-bd8b-474d-8740-e15fb5b69719" valueTypeId="3da7ce2a-33be-4b56-8aad-360bfdd66960"/>
+    <listType typeId="fc125c80-c9d6-4aee-9544-820631afeac4" valueTypeId="dd4bd65e-6646-4485-8666-cd5393ad7075"/>
+    <managerType typeId="472a95b9-1e6e-4068-ace5-bc73ae1cfe7b" valueTypeId="7d8a9df8-76f4-4263-936b-61e47d9bd960"/>
+    <recordSetType typeId="4912b69b-a269-4f8c-aaa0-f6ff540c94ec" valueTypeId="9f083a34-85e7-4157-8ccf-b0c4c9e5f2a5"/>
+    <recordKeyType typeId="5e882c94-6ff3-41c8-9cc9-591b28a961be" valueTypeId="fa9ff6b2-0bfe-41f9-b3a1-502eeca7da51"/>
+    <recordType typeId="7723c221-09c7-4d6c-80d6-b0fe031d8842" valueTypeId="4a01d3b1-fea2-4621-bc44-300b8ccc9762"/>
+  </producedTypes>
+  <name>отусБалансВиртуальныхКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс виртуальных карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="52c81667-0cb0-4b24-b820-49e7e6b63de4">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="fe4ad2ea-a60a-40fd-893c-82beef5da845">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.отусВиртуальныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

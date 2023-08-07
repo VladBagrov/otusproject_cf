@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c8c38a-1b64-4a4f-b1e3-e4343642e786">
+  <producedTypes>
+    <objectType typeId="de9c213d-7b3e-43df-9795-9228f03b04d1" valueTypeId="54e074d5-eb8c-46e0-b61b-d5bb1c3eac13"/>
+    <refType typeId="8f8580b9-beea-474b-928b-afef4e483db8" valueTypeId="213c07bd-ce40-4606-b089-d908068fb7bc"/>
+    <selectionType typeId="364da964-a911-4d58-a002-bcd49e90c75c" valueTypeId="4b1d2807-080c-47d6-866c-f2db94f0cbe4"/>
+    <listType typeId="38343db2-b841-46c2-9271-24ffba9e95f7" valueTypeId="d4a87cd1-1fb0-4a7a-a083-4d7f8b22ccc2"/>
+    <managerType typeId="1437e9f1-450e-4d8c-9bde-ed60808d563b" valueTypeId="f5b6601a-0674-41f9-a652-f203dddf4d01"/>
+  </producedTypes>
+  <name>отусСпособыОплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.отусСпособыОплат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.отусСпособыОплат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8618b73a-a13a-4a7b-97be-e26a611cb108">
+      <name>БанковскаяКарта</name>
+      <description>Банковская карта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="278daa22-474f-4007-ace0-0067acd87d74">
+      <name>Бонусы</name>
+      <description>Бонусы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="f94fa1d0-99bb-42bd-b283-35c60ae09d06">
+      <name>Наличные</name>
+      <description>Наличные</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="622aeaef-f5e3-4902-ab5f-485aaa96d9c4">
+  <producedTypes>
+    <objectType typeId="7d5a60b3-618a-4294-9595-cee790038a73" valueTypeId="f927fa1f-7572-40e9-aecb-f604333ef53c"/>
+    <managerType typeId="e012a907-bdbf-4248-b3c1-52f3fd10615c" valueTypeId="eebebb42-9c3f-4c41-88e5-ec15c1aef44b"/>
+  </producedTypes>
+  <name>УправлениеОбменомRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление обменом RMQ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеОбменомRMQ.Form.Форма</defaultForm>
+  <attributes uuid="c4aa8d3c-39c7-44d6-b508-c381f042e37a">
+    <name>НастройкаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка подключения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиПодключенияRMQ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8c552e20-4c04-48aa-9546-bc36d49b3784">
+    <name>ИмяОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя очереди</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="08cfe359-530c-4576-995a-2ea0d11b9b4d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d926222-ee69-46d5-8ac8-ec2bd53c0d33">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.НастройкиПодключенияRMQ</content>
+  <content>Catalog.ПодключенияКОчереди</content>
+  <content>Catalog.НастройкиОтправки</content>
+  <parentSubsystem>Subsystem.Rmq</parentSubsystem>
+</mdclass:Subsystem>

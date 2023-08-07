@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64d84d46-7be9-4bef-a817-9dd1ea89c7a3">
+  <name>отусСписаниеБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус списание бонусов</value>
+  </synonym>
+  <methodName>CommonModule.отусБонуснаяСистемаСервер.СписатьПросроченныеБонусы</methodName>
+  <description>Списание бонусов</description>
+  <key>отусСписаниеБонусов</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

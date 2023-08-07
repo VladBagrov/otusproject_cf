@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d49dbe-342c-4493-88f5-669db221e320">
+  <name>APDEX</name>
+  <synonym>
+    <key>ru</key>
+    <value>APDEX</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КлючевыеОперации</content>
+  <content>Constant.ВыполнятьЗамерыПроизводительности</content>
+  <content>Constant.ОценкаПроизводительностиПериодЗаписи</content>
+  <content>InformationRegister.ЗамерыВремени</content>
+  <content>Report.ОценкаПроизводительности</content>
+  <content>Catalog.ПрофилиКлючевыхОпераций</content>
+  <parentSubsystem>Subsystem.Отус</parentSubsystem>
+</mdclass:Subsystem>

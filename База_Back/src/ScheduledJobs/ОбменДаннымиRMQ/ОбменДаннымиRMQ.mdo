@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73806317-85a2-47f9-87b5-d8a2aecdedf5">
+  <name>ОбменДаннымиRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными RMQ</value>
+  </synonym>
+  <methodName>CommonModule.РаботаСRMQ.ВыполнитьОбменRMQРегламент</methodName>
+  <description>Обмен данными RMQ</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89a8a59f-af6b-483e-a11b-9797b83e95ae">
+  <name>Отправление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СообщенияКОтправке</content>
+  <parentSubsystem>Subsystem.Rmq</parentSubsystem>
+</mdclass:Subsystem>

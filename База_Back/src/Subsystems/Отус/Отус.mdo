@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfd92506-26da-443c-8e30-ad4926f0c8e7">
+  <name>Отус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ШтрихКод</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.отусВиртуальныеКарты</content>
+  <content>AccumulationRegister.отусБалансВиртуальныхКарт</content>
+  <content>Document.РасходТовара</content>
+  <content>Constant.отусПроцентНачисленияБонусов</content>
+  <content>CommonForm.отусФормаПроцентБонусов</content>
+  <content>Document.ОтусСписаниеБонусов</content>
+  <content>Catalog.отусСпособыОплат</content>
+  <content>Constant.отусКоличествоДнейЖизниБонусов</content>
+  <content>ScheduledJob.отусСписаниеБонусов</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+  <subsystems>APDEX</subsystems>
+</mdclass:Subsystem>

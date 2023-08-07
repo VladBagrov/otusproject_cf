@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39866d0c-ec7e-43ca-a109-00e626469680">
+  <name>Получение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.СообщенияКОтправке</content>
+  <content>Catalog.ПолученныеСообщения</content>
+  <parentSubsystem>Subsystem.Rmq</parentSubsystem>
+</mdclass:Subsystem>

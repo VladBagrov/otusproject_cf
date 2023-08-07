@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="351fe53a-8a10-4c03-a3c5-01f74824f381">
+  <producedTypes>
+    <objectType typeId="5f8be59e-b27e-43cd-9dbc-46a45361eef7" valueTypeId="427377d3-7c09-4bda-a0f4-50b380120bbe"/>
+    <managerType typeId="448748cf-554f-4be5-a223-3ed967526c1b" valueTypeId="c9c5f1a0-e7ca-4a2b-8a75-79470b2966ec"/>
+  </producedTypes>
+  <name>КонсольЗаданий2019</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль заданий 2019</value>
+  </synonym>
+  <comment>https://github.com/kuzyara/JobsConsole2019.epf (c)Душелов'2009</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗаданий2019.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b809707e-48a9-42e8-bc4b-b402ce948c24">
+    <name>ДиалогРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c42682f5-ccd5-4d3a-a9e7-bca70f1c0140">
+    <name>ДиалогФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог фонового задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="649c7ad0-644e-4fd5-9fad-b54f271275a1">
+    <name>ДиалогОтбораРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a77cac0a-2eea-453d-874a-7e5989f47e3b">
+    <name>ДиалогОтбораФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2dcca15d-838d-4d87-a775-0c234c0178ef">
+    <name>ДиалогНастроекСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог настроек списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

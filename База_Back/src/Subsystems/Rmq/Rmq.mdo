@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e0c260-cf70-4b38-895d-1d33a2930355">
+  <name>Rmq</name>
+  <synonym>
+    <key>ru</key>
+    <value>RMQ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЗаполнитьФорму</picture>
+  </picture>
+  <content>CommonModule.ПодпискиНаСобытияДокументы</content>
+  <content>EventSubscription.ДокументыПриЗаписи</content>
+  <content>Catalog.НастройкиПодключенияRMQ</content>
+  <content>Catalog.НастройкиОтправки</content>
+  <content>InformationRegister.СообщенияКОтправке</content>
+  <content>Enum.СостояниеОтправикВRMQ</content>
+  <content>DataProcessor.УправлениеОбменомRMQ</content>
+  <content>CommonModule.РаботаСRMQ</content>
+  <content>ScheduledJob.ОбменДаннымиRMQ</content>
+  <content>Catalog.ПолученныеСообщения</content>
+  <content>DataProcessor.КонсольЗаданий2019</content>
+  <content>Catalog.ПодключенияКОчереди</content>
+  <content>EventSubscription.РегистрыСведенийПриЗаписи</content>
+  <content>Enum.отусНаправления</content>
+  <subsystems>Настройки</subsystems>
+  <subsystems>Отправление</subsystems>
+  <subsystems>Получение</subsystems>
+</mdclass:Subsystem>

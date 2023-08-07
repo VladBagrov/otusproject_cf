@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c28678e6-9fa3-4196-af7e-3e1fdb3b1a5b">
+  <producedTypes>
+    <objectType typeId="28a06ee2-798b-440c-ad70-06d895793dff" valueTypeId="a42902bc-e4f7-4542-a3ec-ee71e215399c"/>
+    <refType typeId="0e63489a-9c97-4a77-95da-6aebcf713490" valueTypeId="8f702b44-d553-4cff-8b70-96a76f578a37"/>
+    <selectionType typeId="cd0d3380-126e-4e00-a0d1-dd37c524c9ff" valueTypeId="be5729c7-7407-4867-b1ca-8a084535906f"/>
+    <listType typeId="30ef4302-8546-4148-889e-4f95f92b6740" valueTypeId="1dd1ffb1-b508-47ba-8a88-a09af548954b"/>
+    <managerType typeId="fab7a6fa-b04b-4773-a168-61e4d27d2086" valueTypeId="6812960b-f0df-4d55-870b-8bc6a3c1a9a8"/>
+  </producedTypes>
+  <name>ОтусСписаниеБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание бонусов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтусСписаниеБонусов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.отусБалансВиртуальныхКарт</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="324b8303-3d96-4bfd-bf9a-b10a20abbc2f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd8ed7b2-7189-476f-bd1c-34fa8b19ac50">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d533d775-718c-4ced-8ca3-afacf4636522">
+    <producedTypes>
+      <objectType typeId="52aa67c2-59f3-4ef3-8849-0055f87db1d9" valueTypeId="89b1eea8-56dc-45b9-9434-dcb9ea07606d"/>
+      <rowType typeId="d5b174c5-78e6-4445-ba44-8fc3d07f474e" valueTypeId="e60dc20a-b2bf-49b8-b41d-070e10265c35"/>
+    </producedTypes>
+    <name>Карты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карты</value>
+    </synonym>
+    <attributes uuid="062d1882-9784-45d0-acd9-33e8c913cd0b">
+      <name>ВиртуальнаяКарта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Виртуальная карта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.отусВиртуальныеКарты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccf06e4a-8ff3-4e8e-9953-f61d082730ff">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
