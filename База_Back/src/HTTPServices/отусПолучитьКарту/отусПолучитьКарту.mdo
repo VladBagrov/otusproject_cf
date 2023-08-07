@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740d6c8f-cea5-4fe6-87e0-3e958c07aa74">
+  <name>отусПолучитьКарту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус получить карту</value>
+  </synonym>
+  <rootURL>cards</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="fdf6dea5-f339-40bb-b1bf-d56a49f125fa">
+    <name>getCard</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get card</value>
+    </synonym>
+    <template>/{НомерТелефона}</template>
+    <methods uuid="cf3556c9-be42-4230-bcea-86d93f678d05">
+      <name>getCard</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get card</value>
+      </synonym>
+      <handler>getCardgetCard</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

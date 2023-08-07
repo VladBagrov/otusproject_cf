@@ -729,6 +729,7 @@
   <webServices>WebService.InterfaceVersion</webServices>
   <httpServices>HTTPService.Товары</httpServices>
   <httpServices>HTTPService.ОписанияТоваров</httpServices>
+  <httpServices>HTTPService.отусПолучитьКарту</httpServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
