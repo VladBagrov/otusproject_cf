@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="983b61fe-156e-4697-aa14-f02b737b9f1c">
+  <producedTypes>
+    <managerType typeId="51ccaf6a-f74a-4bff-ac0e-052d5c0de8bc" valueTypeId="2683ba2a-7bd7-4ef1-8202-29fa6afc4045"/>
+    <valueManagerType typeId="ddc9e6c6-c8dc-4151-9324-7d48ddd79426" valueTypeId="893d4cdd-b2ed-46ba-a082-0c31749dd501"/>
+    <valueKeyType typeId="f5d0d6e0-4233-43ef-b600-beff79b4bffb" valueTypeId="3ce583ef-a985-4084-9b0d-d24d106995ec"/>
+  </producedTypes>
+  <name>отусЭтоФронтОфис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус это фронт офис</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

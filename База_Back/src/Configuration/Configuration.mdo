@@ -668,6 +668,7 @@
   <commonModules>CommonModule.ПодключаемыеКомандыКлиентСервер</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПереопределяемый</commonModules>
   <commonModules>CommonModule.ПодключаемыеКомандыПовтИсп</commonModules>
+  <commonModules>CommonModule.ПодпискиНаСобытияДокументы</commonModules>
   <commonModules>CommonModule.ПодсистемыКонфигурацииПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
@@ -677,6 +678,7 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСRMQ</commonModules>
   <commonModules>CommonModule.РаботаСИсториейДанных</commonModules>
   <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
   <commonModules>CommonModule.РаботаСПолнотекстовымПоиском</commonModules>
@@ -716,8 +718,6 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПодпискиНаСобытияДокументы</commonModules>
-  <commonModules>CommonModule.РаботаСRMQ</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
@@ -801,25 +801,25 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
-  <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.SSLIMAP</constants>
+  <constants>Constant.SSLPOP3</constants>
   <constants>Constant.SSLSMTP</constants>
   <constants>Constant.АдресIMAPСервера</constants>
   <constants>Constant.АдресPOP3Сервера</constants>
   <constants>Constant.АдресSMTPСервера</constants>
-  <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
-  <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
   <constants>Constant.ВалютаУчета</constants>
+  <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
+  <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ВоспроизводитьТекстУведомления</constants>
   <constants>Constant.ВыборПровайдераГеопозиционирования</constants>
+  <constants>Constant.ИдентификаторПриложенияWNS</constants>
+  <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
-  <constants>Constant.ИспользоватьВнешнихПользователей</constants>
-  <constants>Constant.ИдентификаторПриложенияWNS</constants>
   <constants>Constant.ИмяОтправителяПочтовогоСообщения</constants>
   <constants>Constant.ИмяПровайдера</constants>
   <constants>Constant.ИспользоватьAPNS</constants>
@@ -827,24 +827,25 @@
   <constants>Constant.ИспользоватьIMAP</constants>
   <constants>Constant.ИспользоватьPushУведомления</constants>
   <constants>Constant.ИспользоватьWNS</constants>
+  <constants>Constant.ИспользоватьСетьПередачиДанных</constants>
+  <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
   <constants>Constant.ИспользоватьРазделениеПоОбластямДанных</constants>
-  <constants>Constant.КаталогВременныхФайловДляLinux</constants>
-  <constants>Constant.ИспользоватьСетьПередачиДанных</constants>
   <constants>Constant.ИспользоватьСотовуюСеть</constants>
   <constants>Constant.ИспользоватьСпутники</constants>
-  <constants>Constant.КаталогВременныхФайловДляWindows</constants>
-  <constants>Constant.КоличествоЗамеровВПакетеЭкспорта</constants>
   <constants>Constant.КлючCервераОтправителяFCM</constants>
+  <constants>Constant.КаталогВременныхФайловДляLinux</constants>
+  <constants>Constant.КаталогВременныхФайловДляWindows</constants>
   <constants>Constant.КлючПриложенияWNS</constants>
   <constants>Constant.КодНовогоУзлаПланаОбмена</constants>
+  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
+  <constants>Constant.КоличествоЗамеровВПакетеЭкспорта</constants>
   <constants>Constant.КоличествоПотоковДлительныхОпераций</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
-  <constants>Constant.НастройкиВходаПользователей</constants>
-  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
   <constants>Constant.МаркерДоступаWNS</constants>
-  <constants>Constant.SSLPOP3</constants>
+  <constants>Constant.НастройкиВходаПользователей</constants>
+  <constants>Constant.НастройкиКолонтитулов</constants>
   <constants>Constant.НеИспользоватьРазделениеПоОбластямДанных</constants>
   <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
@@ -881,7 +882,7 @@
   <constants>Constant.ТолькоЗащищеннаяАутентификацияSMTP</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетПоСкладам</constants>
-  <constants>Constant.НастройкиКолонтитулов</constants>
+  <constants>Constant.отусЭтоФронтОфис</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
