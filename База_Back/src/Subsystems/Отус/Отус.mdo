@@ -20,6 +20,7 @@
   <content>Catalog.отусСпособыОплат</content>
   <content>Constant.отусКоличествоДнейЖизниБонусов</content>
   <content>ScheduledJob.отусСписаниеБонусов</content>
+  <content>CommonModule.отусБонуснаяСистемаСервер</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>APDEX</subsystems>
