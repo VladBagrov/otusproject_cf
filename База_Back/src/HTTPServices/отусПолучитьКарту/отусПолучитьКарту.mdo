@@ -24,4 +24,20 @@
       <handler>getCardgetCard</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="2f204e87-bb89-4b4a-a413-403d08f5a3b4">
+    <name>balance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Balance</value>
+    </synonym>
+    <template>/balance/{НомерТелефона}</template>
+    <methods uuid="f61f9d46-da85-4602-b379-7bf95d89bd0c">
+      <name>balance</name>
+      <synonym>
+        <key>ru</key>
+        <value>Balance</value>
+      </synonym>
+      <handler>balancebalance</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

@@ -22,6 +22,8 @@
   <content>ScheduledJob.отусСписаниеБонусов</content>
   <content>CommonModule.отусБонуснаяСистемаСервер</content>
   <content>Constant.отусЭтоФронтОфис</content>
+  <content>HTTPService.отусПолучитьКарту</content>
+  <content>Constant.отусАдресСервераБэкОфис</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>APDEX</subsystems>

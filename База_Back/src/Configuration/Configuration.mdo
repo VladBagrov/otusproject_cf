@@ -884,6 +884,7 @@
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <constants>Constant.УчетПоСкладам</constants>
   <constants>Constant.отусЭтоФронтОфис</constants>
+  <constants>Constant.отусАдресСервераБэкОфис</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
