@@ -5,10 +5,10 @@
     <valueManagerType typeId="2680d2be-3d8c-486e-bba2-dec09e5d9220" valueTypeId="0c952c41-46ec-4352-8ce0-7a94cbd3da85"/>
     <valueKeyType typeId="336a1984-fefe-4dd3-9b95-4edfa1494b7b" valueTypeId="6e7a98a6-0db8-46ec-9eb7-4c4d8fcebbe8"/>
   </producedTypes>
-  <name>отусТекушийСкладФронта</name>
+  <name>отусТекущийСкладФронта</name>
   <synonym>
     <key>ru</key>
-    <value>Отус текуший склад фронта</value>
+    <value>Отус текущий склад фронта</value>
   </synonym>
   <type>
     <types>CatalogRef.Склады</types>
