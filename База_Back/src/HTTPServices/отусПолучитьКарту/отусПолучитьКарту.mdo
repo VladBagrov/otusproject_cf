@@ -14,7 +14,7 @@
       <key>ru</key>
       <value>Get card</value>
     </synonym>
-    <template>/{НомерТелефона}</template>
+    <template>/getCard/{НомерТелефона}</template>
     <methods uuid="cf3556c9-be42-4230-bcea-86d93f678d05">
       <name>getCard</name>
       <synonym>
