@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfc5cb5-250a-4bcd-b19f-18ea87ef2078">
+  <producedTypes>
+    <managerType typeId="056d64b2-6f4b-4b23-b3cb-2d3cb2694e05" valueTypeId="59ad0d2f-6bcf-4547-b2b3-5e2e8099ae9c"/>
+    <valueManagerType typeId="2680d2be-3d8c-486e-bba2-dec09e5d9220" valueTypeId="0c952c41-46ec-4352-8ce0-7a94cbd3da85"/>
+    <valueKeyType typeId="336a1984-fefe-4dd3-9b95-4edfa1494b7b" valueTypeId="6e7a98a6-0db8-46ec-9eb7-4c4d8fcebbe8"/>
+  </producedTypes>
+  <name>отусТекушийСкладФронта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отус текуший склад фронта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

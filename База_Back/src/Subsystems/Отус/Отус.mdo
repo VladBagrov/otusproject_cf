@@ -24,6 +24,7 @@
   <content>Constant.отусЭтоФронтОфис</content>
   <content>HTTPService.отусПолучитьКарту</content>
   <content>Constant.отусАдресСервераБэкОфис</content>
+  <content>Constant.отусТекушийСкладФронта</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
   <subsystems>APDEX</subsystems>
