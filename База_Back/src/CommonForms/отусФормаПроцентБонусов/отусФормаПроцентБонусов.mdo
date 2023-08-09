@@ -3,7 +3,7 @@
   <name>отусФормаПроцентБонусов</name>
   <synonym>
     <key>ru</key>
-    <value>Установка процента бонусов</value>
+    <value>Настройки бонусной системы</value>
   </synonym>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>

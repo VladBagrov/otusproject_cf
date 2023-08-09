@@ -21,10 +21,6 @@
       <command>Catalog.отусСпособыОплат.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonForm.отусФормаПроцентБонусов.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <subsystemsOrder>
     <subsystems>Subsystem.Отус.Subsystem.Справочники</subsystems>
