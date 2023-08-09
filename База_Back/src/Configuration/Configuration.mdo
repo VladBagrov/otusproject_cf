@@ -579,6 +579,7 @@
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовLinux64</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ</commonTemplates>
   <filterCriteria>FilterCriterion.ДокументыКонтрагента</filterCriteria>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
@@ -1015,9 +1016,11 @@
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ДвиженияДокумента</reports>
   <reports>Report.УниверсальныйОтчет</reports>
-  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.АдминистративныйСервис</dataProcessors>
   <dataProcessors>DataProcessor.ДемонстрацияВозможностейДиаграмм</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗаданий2019</dataProcessors>
+  <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователя</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
@@ -1032,12 +1035,10 @@
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеАгрегатамиПродаж</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеНастройкамиФорм</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеОбменомRMQ</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
-  <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
-  <dataProcessors>DataProcessor.УправлениеОбменомRMQ</dataProcessors>
-  <dataProcessors>DataProcessor.КонсольЗаданий2019</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
