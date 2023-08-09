@@ -10,7 +10,7 @@
   <name>отусВиртуальныеКарты</name>
   <synonym>
     <key>ru</key>
-    <value>Виртуальные карты</value>
+    <value>отус Виртуальные карты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.отусВиртуальныеКарты.StandardAttribute.Description</inputByString>
