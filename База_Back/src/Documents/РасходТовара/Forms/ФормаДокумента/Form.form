@@ -958,7 +958,7 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceForm>Catalog.Товары.Form.ФормаСпискаСОстатками</choiceForm>
+            <choiceForm>Catalog.Товары.Form.ФормаВыбора</choiceForm>
             <borderColor xsi:type="core:ColorRef">
               <color>Style.BorderColor</color>
             </borderColor>
