@@ -887,6 +887,7 @@
   <constants>Constant.отусЭтоФронтОфис</constants>
   <constants>Constant.отусАдресСервераБэкОфис</constants>
   <constants>Constant.отусТекущийСкладФронта</constants>
+  <constants>Constant.отусПрефикс</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
